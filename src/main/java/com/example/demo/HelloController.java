@@ -16,4 +16,9 @@ public class HelloController {
     public String indexCat() {
         return "Salutacions des de Spring Boot!";
     }
+
+    @GetMapping("/eus")
+    public String indexEus() {
+        return "Agurrak Spring Boot -etik !";
+    }
 }
